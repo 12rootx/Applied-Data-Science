@@ -11,8 +11,8 @@ STATION: station identification code (17 characters). Please see http://www1.ncd
 for a complete list of stations and their metadata.
 NAME: the name of the station (usually city/airport name) (max 50 characters).
 DATE : the year of the record (4 digits) followed by month (2 digits) and day (2 digits).
-TMAX : Maximum temperature (tenths of degrees C)
-TMIN : Minimum temperature (tenths of degrees C)
+TMAX : Maximum temperature (tenths of degrees C).
+TMIN : Minimum temperature (tenths of degrees C).
 LONGITUDE: Longitude of the station.
 LATITUDE: Latitude of the station.
 
@@ -31,5 +31,4 @@ Steps:
 2. Extract data from https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/ with specified Station ID.
 3. Basic data checks and metic transformation.
 4. Preparing data for plotting. Get maximun and minimun obervation in the period of baseline time. Grab the observations in 2023 for which broke the recods high or record low from 2000 to 2022.
-5. Plotting. The area between the record high and record low temperatures for each day will be shaded.
-To overlay a scatter of the 2023 data for points (highs and lows) breaking the records.
+5. Plotting. The area between the record high and record low temperatures for each day will be shaded. To overlay a scatter of the 2023 data for points (highs and lows) breaking the records.
